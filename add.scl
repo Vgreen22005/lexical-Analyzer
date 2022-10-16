@@ -1,0 +1,29 @@
+description
+takes in two doubles and
+computes the sum, difference,
+product, and quotient then 
+outputs results
+*/
+
+import <stdio.h>
+import <stdlib.h>
+
+implementations
+
+function main is
+  variables
+       define y of type double
+       define x of type double
+	   define result of type double
+  begin        // body of function starts here
+       input "enter value of x: ", x
+	   input "enter value of y: ", y
+       set result = x + y
+       display "sum of x and y: ", result
+	   set result = x - y
+	   display "difference of x and y: ", result
+	   set result = x / y
+	   display "quotient of x and y: ", result
+	   set result = x * y
+	   display "product of x and y: ", result
+  endfun main
